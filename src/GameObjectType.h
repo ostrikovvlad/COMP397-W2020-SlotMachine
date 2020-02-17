@@ -1,0 +1,21 @@
+#pragma once
+#ifndef __GAME_OBJECT_TYPE__
+#define __GAME_OBJECT_TYPE__
+enum GameObjectType {
+	NONE = -1,
+	ENEMY,
+	OCEAN,
+	SHIP,
+	TARGET,
+	PLANET,
+	MINE,
+	SLOT_WHEEL,
+	START_BUTTON,
+	SPIN_BUTTON,
+	BET_BUTTON,
+	UNBET_BUTTON,
+	SLOT_MACHINE,
+	NUM_OF_TYPES
+};
+
+#endif /* defined (__GAME_OBJECT_TYPE__)*/
